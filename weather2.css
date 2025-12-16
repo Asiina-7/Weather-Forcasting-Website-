@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+background-image:url('./images/inputback.png');
+  min-height: 92vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  color: black;
+}
+
+.headertit {
+  color: rgb(101, 142, 218);
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app-main {
+  min-height: 10vh;
+  width: 30vw;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 15px;
+background-image:url('./images/inputback.png');
+}
+
+.app-main > * {
+  margin-bottom: 20px;
+ 
+}
+.input-box {
+  width: 100%;
+  background:  rgb(208, 216, 219);
+  color: rgb(7, 7, 7);
+  font-weight: 500;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border:rgb(37, 3, 19);
+}
+
+.btn{
+  background-image: url(./images/btn.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(255, 242, 255);
+  background-color: rgb(7, 3, 63);
+  width: 120px;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 30px;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.weather-body {
+  color: #fafcfc;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 5px;
+
+  border-top: rgb(31, 5, 20);
+  display: none;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 15px rgba(88, 43, 43, 0.4);
+}
+.location-deatils {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px 0px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+.weather {
+  margin-top: 25px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.min-max {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day_details {
+  padding: 20px;
+}
+.sun-detail,
+.basic {
+  font-size: 1rem;
+}
+#weather-icon {
+  color: black;
+}
+
+
+@media screen and (max-width: 800px) {
+  .app-main {
+    width: 95%;
+    padding: 10px;
+  }
+  body {
+    min-height: 94vh;
+  }
+}
